@@ -1,3 +1,4 @@
+![alt text] https://github.com/ecbmurphy/ReMedia_DigitalHumanities/blob/main/Re_Colour.png
 # ReMedia_DigitalHumanities
 Features publicly available data, scripts, and documentation for digital humanities research in the ReMedia Infrastructure for Research and Creation.# 💼 ReMedia Infrastructure for Research and Creation - Research Projects
 
