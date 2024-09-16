@@ -1,4 +1,4 @@
-<img src="./Re_Colour.png" alt="ReMedia logo is the letters RE in a green cirlce." width="150">
+<img src="./Re_Colour.png" alt="ReMedia logo is the letters RE in a green cirlce." width="175">
 
 # 💼 ReMedia Infrastructure for Research and Creation - Projects
 Features publicly available data, scripts, and documentation for digital humanities research in the ReMedia Infrastructure for Research and Creation.
