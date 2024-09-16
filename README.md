@@ -1,7 +1,7 @@
 <img src="./Re_Colour.png" alt="ReMedia logo is the letters RE in a green cirlce." width="175">
 
 # 💼 ReMedia Infrastructure for Research and Creation - Projects
-Features publicly available data, scripts, and documentation for digital humanities research in the ReMedia Infrastructure for Research and Creation.
+Features publicly available data, scripts, and documentation for digital humanities research.
 ---
 
 ## 🔗 Links
@@ -13,6 +13,8 @@ Features publicly available data, scripts, and documentation for digital humanit
 ## 👩‍💻 About ReMedia
 
 In ReMedia we study multimedia cultural memory: what we remember about culture, how we remember it, and how technology and media shape that memory. We take a "problem-centered," case-study approach to research. The projects below contain data, scripts, and documentation from case studies created by research partners and student research assistants. Scroll down for data related to digital humanities pedagogy. 
+
+Some projects featured here are in-progress, and others are cleaned, completed, or on-hiaitus. In ReMedia our main data repository is Microsoft Teams. If you have questions about these projects or curious to see more, please get in touch with the PI at emily.murphy [at] ubc [dot] ca. 
 
 ---
 
