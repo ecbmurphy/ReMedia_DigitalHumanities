@@ -1,4 +1,4 @@
-![alt text] https://github.com/ecbmurphy/ReMedia_DigitalHumanities/blob/main/Re_Colour.png
+![ReMedia button logo with RE in a green circle](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/blob/main/Re_Colour.png}
 # ReMedia_DigitalHumanities
 Features publicly available data, scripts, and documentation for digital humanities research in the ReMedia Infrastructure for Research and Creation.# 💼 ReMedia Infrastructure for Research and Creation - Research Projects
 
@@ -6,7 +6,7 @@ Features publicly available data, scripts, and documentation for digital humanit
 
 ## 🔗 Links
 
-- ReMedia Website (https://www.https://remediaresearch.ca/)
+- [ReMedia Website](https://www.https://remediaresearch.ca/)
 
 ---
 
@@ -18,7 +18,7 @@ In ReMedia we study multimedia cultural memory: what we remember about culture, 
 
 ## 📂 Featured Research Projects
 
-### 1. Modernist Remediations -- Goodreads data for Iconic Biography book (https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
+### 1. [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
 **Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
 
 - **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
@@ -29,7 +29,7 @@ In ReMedia we study multimedia cultural memory: what we remember about culture, 
 
 ---
 
-### 2. Modernist Remediations -- Twitter data from collaboration with Science Museum London()
+### 2. [Modernist Remediations -- Twitter data from collaboration with Science Museum London]()
 **Description:** A brief description of the project and its purpose.
 
 - **Tech Stack:** [Python, Flask, PostgreSQL]
@@ -40,7 +40,7 @@ In ReMedia we study multimedia cultural memory: what we remember about culture, 
 
 ---
 
-### 3. Feminism, Modernism, and Ego-Network (https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
+### 3. [Feminism, Modernism, and Ego-Network](https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** Neo4j, Gephi
@@ -51,7 +51,7 @@ In ReMedia we study multimedia cultural memory: what we remember about culture, 
 
 ---
 
-### 4. LinkedModernisms (https://github.com/orgs/LinkedModernismProject/repositories)
+### 4. [LinkedModernisms](https://github.com/orgs/LinkedModernismProject/repositories)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** JSON, CSV, Python, Apache Jena, Neo4j, SPARQL, RDFXML
@@ -75,7 +75,18 @@ In ReMedia we study multimedia cultural memory: what we remember about culture, 
 
 ---
 
-### 6. [DIHU407: Media and Contemporary Readers](https://github.com/yourusername/project-repo)
+### 6. [Contract Grading Resources for IJHAC article](https://github.com/yourusername/project-repo)
+**Description:** A summary of what this project is about and any challenges you faced.
+
+- **Tech Stack:** [Angular, Firebase]
+- **Features:**
+  - Feature 1
+  - Feature 2
+  - Feature 3
+
+---
+
+### 7. [Coming Soon: Repository Material for EnTwine edited collection](https://github.com/yourusername/project-repo)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** [Angular, Firebase]
