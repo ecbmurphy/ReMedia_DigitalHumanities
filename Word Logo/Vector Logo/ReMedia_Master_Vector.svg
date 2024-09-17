@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3400 1400">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: FuturaBT-Heavy, 'Futura Hv BT';
+        font-size: 827.92px;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        font-family: CoolveticaRg-Regular, Coolvetica;
+        font-size: 823px;
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="My_Font_Thin" data-name="My Font Thin">
+    <ellipse class="cls-1" cx="599.95" cy="699.81" rx="502.27" ry="499.93"/>
+    <text class="cls-3" transform="translate(166.66 995.49)"><tspan x="0" y="0">R</tspan></text>
+    <text class="cls-3" transform="translate(572.17 996.63)"><tspan x="0" y="0">e</tspan></text>
+    <text transform="translate(1125.21 995.6)"><tspan><tspan class="cls-4" x="0" y="0">M</tspan><tspan class="cls-2" x="530.83" y="0">e</tspan></tspan></text>
+    <circle class="cls-1" cx="2646.5" cy="459.82" r="65.87"/>
+    <rect class="cls-1" x="2592.49" y="580.57" width="108.02" height="414.91"/>
+    <path class="cls-1" d="m2433.15,403.9v210.82c-27.43-21.61-61.85-34.32-98.57-34.32-61.79,0-110.49,20.08-150.09,60.24-39.6,40.16-59.41,91.36-59.41,153.62s24.18,107.57,62.01,145.83c37.83,38.27,80.25,55.4,145.03,55.4,36.78,0,72.11-14.95,101.02-29.85v30.1h108.02V403.9h-108.02Zm-101.02,492.76c-59.98,0-108.6-48.62-108.6-108.6s48.62-108.6,108.6-108.6,108.6,48.62,108.6,108.6-48.62,108.6-108.6,108.6Z"/>
+    <path class="cls-1" d="m3052.98,580.33v40.73c-28.52-25.45-65.96-40.66-106.15-40.66-61.79,0-112.49,20.08-152.09,60.24-39.6,40.16-59.41,91.36-59.41,153.62s24.18,107.57,62.01,145.83c37.83,38.27,82.25,55.4,147.03,55.4,40.05,0,78.4-17.73,108.6-33.82v34.07h108.02v-415.41h-108.02Zm-108.6,316.21c-59.98,0-108.6-48.62-108.6-108.6s48.62-108.6,108.6-108.6,108.6,48.62,108.6,108.6-48.62,108.6-108.6,108.6Z"/>
+  </g>
+</svg>
