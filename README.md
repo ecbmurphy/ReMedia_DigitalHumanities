@@ -1,6 +1,6 @@
 <img src="./Re_Colour.png" alt="ReMedia logo is the letters RE in a green cirlce." width="175">
 
-# <img src="./Slide Objects/Re_Tri.png" alt="ReMedia logo is the letters RE in a green cirlce." width="20"> ReMedia Infrastructure for Research and Creation - Projects
+# <img src="./Slide Objects/Re_Tri.png" alt="ReMedia brand symbol three triangles in a circle." width="20"> ReMedia Infrastructure for Research and Creation - Projects
 Features publicly available data, scripts, and documentation for digital humanities research.
 ---
 
