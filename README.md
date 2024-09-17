@@ -24,13 +24,13 @@ This portfolio provides descriptions of data building, web scraping, and computa
 ### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
 - **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
 
+**Description:** 
+The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
+
 - **Features:**
   - Metadata on graphic biographies with unique identifiers, UML
   - Coming soon: scraped data from Goodreads
   - Coming soon: scripts for webscraping and analysis
-
-**Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
-The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
 
 
 ---
@@ -140,17 +140,3 @@ This project is on hiaitus. Next steps will include expanding the data model fro
   - Feature 1
   - Feature 2
   - Feature 3
-
----
-
-## 📧 Contact
-
-If you'd like to collaborate or discuss my work, feel free to reach out:
-
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
-- **Website:** [your-website.com](https://your-website.com)
-
----
-
-Thank you for visiting my portfolio! Looking forward to connecting and building great things together!
