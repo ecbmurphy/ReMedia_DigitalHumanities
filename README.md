@@ -7,7 +7,7 @@ Features publicly available data, scripts, and documentation for digital humanit
 ## 🔗 Links
 
 [Repository version of this portfolio](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/edit/main/README.md)
-[ReMedia Website](https://www.https://remediaresearch.ca/)
+<br>[ReMedia Website](https://www.https://remediaresearch.ca/)
 
 ---
 
