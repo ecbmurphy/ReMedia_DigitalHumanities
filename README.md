@@ -6,7 +6,7 @@ Features publicly available data, scripts, and documentation for digital humanit
 
 ## 🔗 Links
 
-[Repository version of this portfolio](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/edit/main/README.md)
+[See this portfolio in the repository](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/edit/main/README.md)
 <br>[ReMedia Website](https://www.https://remediaresearch.ca/)
 
 ---
@@ -52,7 +52,10 @@ Linked open data is a metadata standard that may be structured to “[allow] met
 
 At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. You'll find that data in Letters.csv. Here is a visualization produced in Gephi: 
 
-<img scr="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy2.png" alt="Visualization of Cunard letters" width="300">
+<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/send%20receive%20letters.png" alt="All nodes and edges from letters metadata.">
+
+
+<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy2.png" alt="Visualization of Cunard letters" width="300">
 
 - **Tech Stack:** Neo4j, Gephi
 - **Features:**
