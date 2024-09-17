@@ -18,7 +18,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-## Featured Research Projects
+## 🟢 Featured Research Projects
 
 ### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
 **Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
