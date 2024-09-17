@@ -21,7 +21,7 @@ This portfolio provides descriptions of data building, web scraping, and computa
 
 ## 🟢 Featured Research Projects
 
-### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
+### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation)
 - **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
 
 **Description:** 
