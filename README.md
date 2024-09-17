@@ -44,32 +44,38 @@ This portfolio provides descriptions of data building, web scraping, and computa
 ---
 
 ### 3. 🟢 [Feminism, Modernism, and Ego-Network](https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
-**Description:** A summary of what this project is about and any challenges you faced.
-
+- **Tech Stack:** Neo4j, Gephi
+**Description:** 
 This project was the topic of a SSHRC postdoctoral fellowship at the University of Victoria with the Linked Modernisms project, a Mellon-funded fellowship at the Harry Ransom Centre at the University of Texas at Austin, and a Hampton New Faculty Grant at the University of British Columbia. “Modernism, Feminism, and the Ego-Network” applies linked open data technologies to the personal, professional, and artistic networks of early-twentieth century women writers and editors. It asks two research questions: (1) How can contemporary technologies and social networks change how we understand the nature of women’s artistic and cultural contributions? (2) How can the study of women’s personal and artistic networks change the way we develop technologies for literary and historical inquiry? 
 
 Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. Most linked data projects construct a whole network and measure the importance of individual notes in a network through measures like degree, closeness & betweenness centrality. In this project my goal was to experiment with modeling "ego-networks," or sets of relationships that are all connected through a single node -- in this case a person, modernist editor, author, activist, socialite, and muse, Nancy Cunard. 
 
-At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. You'll find that data in Letters.csv. Here is a visualization produced in Gephi that includes all of the nodes and edges represented by all letters sent a received: 
+At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. You'll find that data in Letters.csv. Here is a visualization produced in Gephi that includes all of the nodes and edges represented by all letters sent and received. 
 
-<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/send%20receive%20letters.png" alt="All nodes and edges from letters metadata." width="300">
+- Persons are orange
+- Letters are beige
+- Poems included in letters are red
+
+<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy1.png" alt="All nodes and edges from letters metadata." width="300">
 
 The nodes in this case are people with whom Cunard exchanged letters. These results simply confirm the premise of the project, which is that Cunard is the central node of her own ego-network, represented by the letters. 
 
 In the next phase of the project, student research assistant Meredith Lister and I translated the tabular format .csv data from the letters into a Neo4j database format. We also expanded the project to consider how the letters related to Cunard's anthology _Poems for France_(1941). Anthology forms offer an interesting case study in the role of editors in literary production, and although most studies of modernist editing focus on figures like T.S. Eliot and Maxwell Perkins, the role of women as the "midwives of modernism" (Benstock) was often effected through editing. Most of Cunard's cultural contributions were anthologies and collections, and her insufficient treatment in in modernist literary studies may result from this very multiplicity. 
 
-In combining Cunard's letters with one of her smaller anthologies, my goal was to find a way of representing literary history focused on a figure that facilitated mediated community connection. I therefore modelled data that recorded anthologized poems, all correspondence related to those poems, and all correspondence related to anthology that did not align with a poem. You can find that dataset in the [0PoemsForFrancePrototype.xslx file](https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/0PoemsForFrancePrototype.xlsx) in this repository. Here is a visualization of that data: 
+In combining Cunard's letters with one of her smaller anthologies, my goal was to find a way of representing literary history focused on a figure that facilitated mediated community connection. I therefore modelled data that recorded anthologized poems, all correspondence related to those poems, and all correspondence related to anthology that did not align with a poem. You can find that dataset in the [0PoemsForFrancePrototype.xslx file](https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/0PoemsForFrancePrototype.xlsx) in this repository. Our first visualization included all persons, poems, publications, and letters is similar to the letters-only network visualization. 
+
+- Persons are orange
+- Poems are red
+- Publications are blue
+- Letters are beige
+
+<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/send%20receive%20letters.png" alt="All nodes and edges from letters metadata." width="300">
+
+We produced of the most interesting visualizations by removing all letters directly received or sent by Cunard. This is the result, in which Cunard is the connected orange person node in the top left. The central blue publication node in the middle surrounded by red poem nodes is the anthology _Poems for France_. Here, we still have an ego-network of a sort. The 
 
 <img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy2.png" alt="Visualization of Cunard anthology + letters" width="300">
 
-- **Tech Stack:** Neo4j, Gephi
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
-
-<img src="https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy1.png" alt="Visualization from FME project." width="300">
- 
+What is most interesting to me is the way that 
 
 
 ---
