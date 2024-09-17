@@ -51,6 +51,10 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
   - Feature 2
   - Feature 3
 
+<img src="(https://github.com/ecbmurphy/FeminismModernismEgoNetwork/blob/master/Nancy1.png)" alt="Visualization from FME project.." width="175">
+ 
+
+
 ---
 
 ### 4. 🟢 [LinkedModernisms](https://github.com/orgs/LinkedModernismProject/repositories)
