@@ -22,27 +22,38 @@ This portfolio provides descriptions of data building, web scraping, and computa
 ## 🟢 Featured Research Projects
 
 ### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
-**Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
-
 - **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
+
 - **Features:**
   - Metadata on graphic biographies with unique identifiers, UML
   - Coming soon: scraped data from Goodreads
   - Coming soon: scripts for webscraping and analysis
 
+**Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
+The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
+
+
 ---
 
 ### 2. 🟢 [Modernist Remediations -- Twitter data from collaboration with Science Museum London](https://github.com/ecbmurphy/EricRobotTwitter_SML2022)
-- **Tech Stack:** [Python, Flask, PostgreSQL]
+- **Tech Stack:** Twitter Developer API, Jupyter Notebooks, Python, JSON
 
 **Description:** 
-A brief description of the project and its purpose.
+The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
 
+This case study focuses on the 1928 tour and media coverage of the UK’s first robot, “Eric Robot,” and the 2017 reconstruction of Eric by the Science Museum in London. In 1928 Eric was the collaboration of William Henry Richards, a printer, journalist, newsagent, and Acting Secretary of the Society of Model Engineers, and Alan Herbert Reffell, an engineer and automotive manufacturer. In 2017, the Science Museum reconstructed Eric Robot, as a collaboration between curator Ben Russell and scrap artist and roboticist, Giles Walker. Eric was part of a larger exhibit, _Robots!_, for which the museum reconstructed several lost historical technologies. Eric is significant for the spectacle that it entailed, including a Kickstarter campaign, an NPR radio spot, and coverage by _Vice_ and the _BBC_. 
 
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
+In this repository you'll find data scraped from Twitter (before it was renamed), and the scripts and literate programming notebooks we developed for scraping. The data contains scraped tweets related to Eric from 2016-2018 and control datasets from 2006-2018. 
+
+1.	Tweets directly referencing Eric, his exhibit, and/or the Kickstarter project to rebuild him
+2.	Tweets adjacent to references of Eric, eg. retweets & replies of tweets from category 1
+3.	Tweets from the geographic area of the London Science Museum during the time period Eric’s exhibit was displayed
+4.	**control** general sentiment towards robots and other AI-related vocabulary, both real and fictional representations from 2006-2018
+
+The estimated size of this dataset is +500,000 JSON objects. 
+
+- **Next Steps:**
+I am in the process of developing analysis methods that apply to both this dataset and the data in project 1 above, which include sentiment analysis, word-embedding models, and topic modelling. Even though we scraped this data with the intention of retaining a control of tweets about robots other than Eric, my initial interpretation of the data suggests that there might be far more affectively charged language in the control data than the tweets related directly to Eric. 
 
 ---
 
