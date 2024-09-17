@@ -20,9 +20,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ## Featured Research Projects
 
-<img src="./Slide Objects/Re_Tri.png" alt="ReMedia brand symbol three triangles in a circle." width="20"> 
-
-### 1. [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
+### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation_ReMedia/tree/main/Data/Goodreads_Comics_Data)
 **Description:** A brief description of the project and what it does. Mention any key technologies or tools you used.
 
 - **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
@@ -33,7 +31,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-### 2. [Modernist Remediations -- Twitter data from collaboration with Science Museum London]()
+### 2. 🟢 [Modernist Remediations -- Twitter data from collaboration with Science Museum London]()
 **Description:** A brief description of the project and its purpose.
 
 - **Tech Stack:** [Python, Flask, PostgreSQL]
@@ -44,7 +42,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-### 3. [Feminism, Modernism, and Ego-Network](https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
+### 3. 🟢 [Feminism, Modernism, and Ego-Network](https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** Neo4j, Gephi
@@ -55,7 +53,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-### 4. [LinkedModernisms](https://github.com/orgs/LinkedModernismProject/repositories)
+### 4. 🟢 [LinkedModernisms](https://github.com/orgs/LinkedModernismProject/repositories)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** JSON, CSV, Python, Apache Jena, Neo4j, SPARQL, RDFXML
@@ -66,9 +64,9 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-## 📂 Featured Digital Humanities Pedagogy Projects
+## 🟣 Featured Digital Humanities Pedagogy Projects
 
-### 5. [DIHU407: Media and Contemporary Readers](https://github.com/yourusername/project-repo)
+### 5. 🟣 [DIHU407: Media and Contemporary Readers](https://github.com/yourusername/project-repo)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** [Angular, Firebase]
@@ -79,7 +77,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-### 6. [Contract Grading Resources for IJHAC article](https://github.com/yourusername/project-repo)
+### 6. 🟣 [Contract Grading Resources for IJHAC article](https://github.com/yourusername/project-repo)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** [Angular, Firebase]
@@ -90,7 +88,7 @@ Some projects featured here are in-progress, and others are cleaned, completed, 
 
 ---
 
-### 7. [Coming Soon: Repository Material for EnTwine edited collection](https://github.com/yourusername/project-repo)
+### 7. 🟣 [Coming Soon: Repository Material for EnTwine edited collection](https://github.com/yourusername/project-repo)
 **Description:** A summary of what this project is about and any challenges you faced.
 
 - **Tech Stack:** [Angular, Firebase]
