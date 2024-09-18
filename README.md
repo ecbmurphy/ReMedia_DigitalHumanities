@@ -6,7 +6,7 @@ Features publicly available data, scripts, and documentation for digital humanit
 
 ## 🔗 Links
 
-[See this portfolio in the repository](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/edit/main/README.md) *images may not display in this GitHub pages site, but are accessible in the repository.*
+[See this portfolio in the repository](https://github.com/ecbmurphy/ReMedia_DigitalHumanities/edit/main/README.md) *images may not display in this GitHub pages site, especially in a Google Chrome browser. THey display consistently in the repository ReadMe file linked here.*
 <br>[ReMedia Website](https://www.https://remediaresearch.ca/)
 
 ---
@@ -22,21 +22,48 @@ This portfolio provides descriptions of data building, web scraping, and computa
 ## 🟢 Featured Research Projects
 
 ### 1. 🟢 [Modernist Remediations -- Goodreads data for Iconic Biography book](https://github.com/OdessyLiu/Modernist_Remediation)
-- **Tech Stack:** [Python, .csv, jsLDA, Word2Vec]
+- **Tech Stack:** Jupyter Notebooks, Python, .csv, jsLDA, Word2Vec
+- **Student assistants:** [Odessy Liu](https://github.com/OdessyLiu/Modernist_Remediation/commits?author=OdessyLiu), Julie Carr
 
 **Description:** 
 The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
 
-- **Features:**
-  - Metadata on graphic biographies with unique identifiers, UML
-  - Coming soon: scraped data from Goodreads
-  - Coming soon: scripts for webscraping and analysis
+This case study will be part of a book, _Iconic Biography_ on the emergence of a new genre of image-text narratives: biographies in comics forms. About a quarter of these _graphic biographies_ feature figures from the early-twentieth century. In these datasets, I'm interested in how reviews data shows the reception of these graphic biographies, particularly how they may reveal readerly relationships to the historical figures they portray through mechanisms like evaluation and affective language. As a first step, I have built a dataset of publishing metadata on graphic biography publications and biographical data on historical figures, and with student RA Odessy Liu I am cleaning and refining the model for that data. The data-building work in progress is [here.](Data/Goodreads_Comics_Data/Data_Files)
 
+We are currently using this manually built metadata to scrape Goodreads reviews using Amazon/Goodreads unique identifiers and ISBNs. Goodreads is an unprecedented resource to understand contemporary readers, and recent scholarship maps reader communities, genre formation, and perceived literary prestige using Goodreads data. I have decided to adapt a [webscraper built by Melanie Walsh and Maria Antoniak](https://github.com/melaniewalsh/Goodreads-Classics) that was used in their article "The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism" (see also the dataset prepared for students in DIHU407 below). Part of my motivation is pragmatic -- to build on these scholars' work. And part is conceptual -- Walsh and Antoniak develop a theory of folksonomic tagging to address the vernacular genre of "classics." I am similarly interested in the emergence of genre. However, unlike Walsh and Antoniak's project, the genre that I wish to trace has no consistent relationship to a folksonomic tagging practice on Goodreads. So, part of the analysis will be to see whether tagging does have any relationship to this emerging genre as it is filtered through Goodreads. Part of the preparatory work will therefore be to analyze the tags/shelves that readers give to the works in the dataset, especially to analyze patterns in tag co-occurence. 
+
+We have begun webscraping a subsection of pilot data (10% of identified titles). However, as the pilot data is not sufficiently anonymized, I am not not including it in this public repository at the moment. The eventual structure of the full dataset will be: 
+Data/
+├── README.md
+├── Goodreads_Comics_Data/      # folder for metadata of graphic biographies
+|   ├── _README.txt
+|   ├── GraphicBiosNew.xlsx     # original GraphicBios file 
+|   ├── GraphicBiosCleaned.csv  # graphicbios metadata file, cleaned from GraphicBiosNew.xlsx
+├── Web-Scraped_Data/           # folder for scraped review data
+|   ├── Raw/                                    # Raw data of scrapped reviews
+|   |   ├── AllReviews/
+|   |   |   ├── MainDataset/                    # Raw AllReviews data from 135 books
+|   |   |   |   ├── CSV/
+|   |   |   |   |   ├── AllReviews.csv
+|   |   |   |   |   ├── AllReviews(1).csv
+|   |   |   ├── AdditionalTitles/               # Additional Raw AllReviews data from 30 books
+|   |   |   |   ├── AllReviews_AdditionalTitles.csv
+|   |   ├── FirstPageReviews/                   # ?
+|   ├── AllReviews_135_Unique.csv           # AllReviews data, merged and cleaned from MainDataset/
+|   ├── AllReviews_Additional_30_Unique.csv # AllReviews_Additional data, merged and cleaned from AdditionalTitles/
+|   ├── AllReviews.otd                      # ?
+|   ├── FirstPageReviews.otd                # ?
+
+
+When this data is compiled and cleaned, I will appy validated DH data analysis methods like 1) word embedding or word vector models (Word2Vec) which analyze the context of particular vocabulary at the sentence level and observe semantic patterns in how readers evaluate graphic biographies and 2) topic modelling (Mallet/LDA), which will reveal overarching trends in reader evaluation and statistical correlations among vocabulary. In addition to these two well established methods, I wish to apply some aspect-based sentiment analysis (an approach I am less familiar with) to turn particular attention towards affective language. 
+
+I observe in many reviews that evaluative language like "meticulously researched" or "really get to know [the biographical figure]" often seems to stand in for an expression of attachment to the graphic biography. I am interested to know whether these computational methods capture or elucidate how that evaluation/attachment works at an aggregate scale. 
 
 ---
 
 ### 2. 🟢 [Modernist Remediations -- Twitter data from collaboration with Science Museum London](https://github.com/ecbmurphy/EricRobotTwitter_SML2022)
 - **Tech Stack:** Twitter Developer API, Jupyter Notebooks, Python, JSON
+- **Student assistants:** Julie Carr
 
 **Description:** 
 The parent project of this dataset, "Modernist Remediations: Embodiment, Technology, and Cultural Memory," asks: on one hand, how do early 20th-century inventors and futurists imagined embodied and affective relationships to new technologies; on the other, how does the memory and technologized study of these relationships help us understand our relationship to historical and contemporary technologies? 
@@ -59,6 +86,7 @@ I am in the process of developing analysis methods that apply to both this datas
 
 ### 3. 🟢 [Feminism, Modernism, and Ego-Network](https://github.com/ecbmurphy/FeminismModernismEgoNetwork)
 - **Tech Stack:** Neo4j, Gephi
+- **Student assistants:** [Meredith Lister](https://github.com/merelister)
 
 **Description:** 
 This project was the topic of a SSHRC postdoctoral fellowship at the University of Victoria with the Linked Modernisms project (see Linked Modernisms below), a Mellon-funded fellowship at the Harry Ransom Centre at the University of Texas at Austin, and a Hampton New Faculty Grant at the University of British Columbia. “Modernism, Feminism, and the Ego-Network” applies linked open data technologies to the personal, professional, and artistic networks of early-twentieth century women writers and editors. It asks two research questions: (1) How can contemporary technologies and social networks change how we understand the nature of women’s artistic and cultural contributions? (2) How can the study of women’s personal and artistic networks change the way we develop technologies for literary and historical inquiry? 
@@ -111,10 +139,9 @@ LiMo sought to develop Linked Open Data (LOD) approaches to modelling literary h
 
 <img src="Casaubon.png" alt="The LiMo Casaubon ontology is visualized with fine black line work on a white background" width="300">
 
-Casaubon guided LiMo's envisioned, four-tier information matrix. First, information included in the _Routledge Encyclopedia of Modernism (REM)_; second, metadata about the terms in the _REM_ provided to us by domain experts; third, metadata gathered through natural language processing and inferential algorithms; and fourth, metadata about those who provided both the initial data (the entries) and the first round of metadata. From tiers 1 and 2, LiMo produced two distinct 
+Casaubon guided LiMo's envisioned, four-tier information matrix. First, information included in the _Routledge Encyclopedia of Modernism (REM)_; second, metadata about the terms in the _REM_ provided to us by domain experts; third, metadata gathered through natural language processing and inferential algorithms; and fourth, metadata about those who provided both the initial data (the entries) and the first round of metadata. From tiers 1 and 2, LiMo produced two distinct search interfaces to display the connections across nodes in the dataset. 
 
 [See Video of Linked Modernisms relations search](https://github.com/ecbmurphy/Cunard_LiMo_Video/blob/main/LiMoSearch.mov) 
-
 
 - **Next Steps:** In the original plans for LiMo, the project is to major semantic web networks like Dr. Susan Brown’s Canadian Writing Research Collaboratory (CWRC) and further developing Dr. Jon Saklofske's NewRadial visualization tool as a form of publishing. Depending on the goals of those projects and LiMo, we may still explore those possibilities. Within the ReMedia research program, LiMo offers a compelling example of metadata and code as a way of representing mediated cultural history. 
 
