@@ -34,6 +34,8 @@ This case study will be part of a book, _Iconic Biography_ on the emergence of a
 We are currently using this manually built metadata to scrape Goodreads reviews using Amazon/Goodreads unique identifiers and ISBNs. Goodreads is an unprecedented resource to understand contemporary readers, and recent scholarship maps reader communities, genre formation, and perceived literary prestige using Goodreads data. I have decided to adapt a [webscraper built by Melanie Walsh and Maria Antoniak](https://github.com/melaniewalsh/Goodreads-Classics) that was used in their article "The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism" (see also the dataset prepared for students in DIHU407 below). Part of my motivation is pragmatic -- to build on these scholars' work. And part is conceptual -- Walsh and Antoniak develop a theory of folksonomic tagging to address the vernacular genre of "classics." I am similarly interested in the emergence of genre. However, unlike Walsh and Antoniak's project, the genre that I wish to trace has no consistent relationship to a folksonomic tagging practice on Goodreads. So, part of the analysis will be to see whether tagging does have any relationship to this emerging genre as it is filtered through Goodreads. Part of the preparatory work will therefore be to analyze the tags/shelves that readers give to the works in the dataset, especially to analyze patterns in tag co-occurence. 
 
 We have begun webscraping a subsection of pilot data (10% of identified titles). However, as the pilot data is not sufficiently anonymized, I am not not including it in this public repository at the moment. The eventual structure of the full dataset will be: 
+
+~~~
 Data/
 ├── README.md
 ├── Goodreads_Comics_Data/      # folder for metadata of graphic biographies
@@ -54,7 +56,7 @@ Data/
 |   ├── AllReviews_Additional_30_Unique.csv # AllReviews_Additional data, merged and cleaned from AdditionalTitles/
 |   ├── AllReviews.otd                      # ?
 |   ├── FirstPageReviews.otd                # ?
-
+~~~
 
 When this data is compiled and cleaned, I will appy validated DH data analysis methods like 1) word embedding or word vector models (Word2Vec) which analyze the context of particular vocabulary at the sentence level and observe semantic patterns in how readers evaluate graphic biographies and 2) topic modelling (Mallet/LDA), which will reveal overarching trends in reader evaluation and statistical correlations among vocabulary. In addition to these two well established methods, I wish to apply some aspect-based sentiment analysis (an approach I am less familiar with) to turn particular attention towards affective language. 
 
