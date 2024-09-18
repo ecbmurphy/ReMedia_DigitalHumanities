@@ -96,8 +96,7 @@ We produced of the most interesting visualizations by removing all letters direc
 
 The force-directed graph does not have any inherent meaning: the algorithm is simply trying to avoid overlapping edges, and the location of the nodes in space does not indicate any particular relationship among nodes without explicit edges. However, what is most interesting to me is the way that this visualization creates a kind of ego-network around the anthology and that, even though Cunard does not publish in the anthology, she still remains one of the most connected person nodes. The outer ring of unconnected nodes represent poems and persons mentioned in the dataset (in letters, primarily) and collections that the poems also appear in. It suggests to me a kind of ghost network of publications and literary works. 
 
-**Next steps:**
-This project is on hiaitus. Next steps will include expanding the data model from _Poems for France_ to Cunard's larger and more famous anthologies. I am curious to know how far the concept of an ego-network can actually take this work. I anticipate that adding more anthologies and revealing more "ghost networks" might mean that I need to balance ego-network modelling approaches with validated whole-network analysis like centrality and betweenness. 
+- **Next steps:** This project is on hiaitus. Next steps will include expanding the data model from _Poems for France_ to Cunard's larger and more famous anthologies. I am curious to know how far the concept of an ego-network can actually take this work. I anticipate that adding more anthologies and revealing more "ghost networks" might mean that I need to balance ego-network modelling approaches with validated whole-network analysis like centrality and betweenness. 
 
 ---
 
@@ -117,9 +116,7 @@ Casaubon guided LiMo's envisioned, four-tier information matrix. First, informat
 [See Video of Linked Modernisms relations search](https://github.com/ecbmurphy/Cunard_LiMo_Video/blob/main/LiMoSearch.mov) 
 
 
-- **Next Steps:**
-
-In the original plans for LiMo, the project is to major semantic web networks like Dr. Susan Brown’s Canadian Writing Research Collaboratory (CWRC) and further developing Dr. Jon Saklofske's NewRadial visualization tool as a form of publishing. Depending on the goals of those projects and LiMo, we may still explore those possibilities. Within the ReMedia research program, LiMo offers a compelling example of metadata and code as a way of representing mediated cultural history. 
+- **Next Steps:** In the original plans for LiMo, the project is to major semantic web networks like Dr. Susan Brown’s Canadian Writing Research Collaboratory (CWRC) and further developing Dr. Jon Saklofske's NewRadial visualization tool as a form of publishing. Depending on the goals of those projects and LiMo, we may still explore those possibilities. Within the ReMedia research program, LiMo offers a compelling example of metadata and code as a way of representing mediated cultural history. 
 
 ---
 
