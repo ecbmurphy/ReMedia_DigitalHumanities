@@ -112,6 +112,8 @@ LinkedModernisms (LiMo) was a major metadata, network modelling, and natural lan
 
 LiMo sought to develop Linked Open Data (LOD) approaches to modelling literary history. Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. Although all researchers invovled were literary scholars, the possibilities of LOD precipitated a shift in the objects of inquiry, away from individual texts or avant-textes and toward the much larger world of modernist cultural production. One of the primary means of framing this shift is through the development of an ontology -- a flexible data classification system -- to account for cultural production in the modernist period. It drew on previous work by the Indiana Philosophy Ontology, which uses the open access _Stanford Encyclopedia of Philosophy (SEP)_ as its database and developed an expandable ontology to support navigation of a discipline-encompassing resource. 
 
+<img src="Casaubon.png" alt="The LiMo Casaubon ontology is visualized with fine black line work on a white background" width="300">
+
 
 
 LiMo envisioned a four-tier information matrix. First, information included in the _Routledge Encyclopedia of Modernism (REM)_; second, metadata about the terms in the _REM_ provided to us by domain experts; third, metadata gathered through natural language processing and inferential algorithms; and fourth, metadata about those who provided both the initial data (the entries) and the first round of metadata. 
