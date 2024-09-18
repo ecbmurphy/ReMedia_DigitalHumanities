@@ -67,7 +67,7 @@ Linked open data is a metadata standard that may be structured to “[allow] met
 
 At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. My first approach was to create a relational database and a provisional tabular data model: 
 
-<img src="CunardUML.png" alt="Cunard Letters UML" width="300">
+<img src="CunardUML.png" alt="Cunard Letters UML" width="400">
 
 After my fellowship at the HRC was complete, I translated this tabular data into a graphic database. You'll find that data in Letters.csv. Here is a visualization produced in Gephi that includes all of the nodes and edges represented by all letters sent and received. 
 
