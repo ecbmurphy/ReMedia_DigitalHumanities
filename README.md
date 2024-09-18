@@ -152,33 +152,19 @@ Casaubon guided LiMo's envisioned, four-tier information matrix. First, informat
 
 ## 🟣 Featured Digital Humanities Pedagogy Projects
 
-### 5. 🟣 [DIHU407: Media and Contemporary Readers](https://github.com/yourusername/project-repo)
-**Description:** A summary of what this project is about and any challenges you faced.
-
+### 5. 🟣 [DIHU407: Media and Contemporary Readers](https://github.com/ecbmurphy/12_PreparedDatasets)
 - **Tech Stack:** [Angular, Firebase]
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
+
+**Description:** 
+This is a dataset prepared for my upper-year seminar "Media and Contemporary Readers." It adapts a [webscraper built by Melanie Walsh and Maria Antoniak](https://github.com/melaniewalsh/Goodreads-Classics) that was used in their article "The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism." While Walsh and Antoniak are interested in the tag "classics," I expanded the queried terms in the scraper to also include "historical fiction" and "memoir" to suit the topics of the class. Students used the in-browser topic modelling tool jsLDA developed by David Mimno to analyze this data. 
 
 ---
 
-### 6. 🟣 [Contract Grading Resources for IJHAC article](https://github.com/yourusername/project-repo)
-**Description:** A summary of what this project is about and any challenges you faced.
+### 6. 🟣 [Contract Grading Resources for IJHAC article](https://github.com/ecbmurphy/ProjectFocusedContractGrading)
 
-- **Tech Stack:** [Angular, Firebase]
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
+**Description:** These resources for project-focused contract grading in DH courses were included as supplemental materials in my article in the _International Journal of Humanities and Arts Computing._
 
 ---
 
 ### 7. 🟣 [Coming Soon: Repository Material for EnTwine edited collection](https://github.com/yourusername/project-repo)
-**Description:** A summary of what this project is about and any challenges you faced.
 
-- **Tech Stack:** [Angular, Firebase]
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
