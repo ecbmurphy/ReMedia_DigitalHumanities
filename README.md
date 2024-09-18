@@ -63,7 +63,7 @@ I am in the process of developing analysis methods that apply to both this datas
 **Description:** 
 This project was the topic of a SSHRC postdoctoral fellowship at the University of Victoria with the Linked Modernisms project (see Linked Modernisms below), a Mellon-funded fellowship at the Harry Ransom Centre at the University of Texas at Austin, and a Hampton New Faculty Grant at the University of British Columbia. “Modernism, Feminism, and the Ego-Network” applies linked open data technologies to the personal, professional, and artistic networks of early-twentieth century women writers and editors. It asks two research questions: (1) How can contemporary technologies and social networks change how we understand the nature of women’s artistic and cultural contributions? (2) How can the study of women’s personal and artistic networks change the way we develop technologies for literary and historical inquiry? 
 
-Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. Most linked data projects construct a whole network and measure the importance of individual notes in a network through measures like degree, closeness & betweenness centrality. In this project my goal was to experiment with modeling "ego-networks," or sets of relationships that are all connected through a single node -- in this case a person, modernist editor, author, activist, socialite, and muse, Nancy Cunard. 
+Most network data projects construct a whole network and measure the importance of individual notes in a network through measures like degree, closeness & betweenness centrality. In this project my goal was to experiment with modeling "ego-networks," or sets of relationships that are all connected through a single node -- in this case a person, modernist editor, author, activist, socialite, and muse, Nancy Cunard. 
 
 At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. My first approach was to create a relational database and a provisional tabular data model: 
 
@@ -102,13 +102,15 @@ This project is on hiaitus. Next steps will include expanding the data model fro
 ---
 
 ### 4. 🟢 [LinkedModernisms](https://github.com/orgs/LinkedModernismProject/repositories)
+- **Tech Stack:** JSON, CSV, Python, Apache Jena, Neo4j, SPARQL, RDFXML
+
 **Description:** A summary of what this project is about and any challenges you faced.
 
-- **Tech Stack:** JSON, CSV, Python, Apache Jena, Neo4j, SPARQL, RDFXML
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
+Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. 
+
+
+[See Video of Linked Modernisms relations search](https://github.com/ecbmurphy/Cunard_LiMo_Video/blob/main/LiMoSearch.mov)
+
 
 ---
 
