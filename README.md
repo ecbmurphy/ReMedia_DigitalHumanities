@@ -14,7 +14,7 @@ Features publicly available data, scripts, and documentation for digital humanit
 
 ## About ReMedia
 
-In ReMedia we study multimedia cultural memory: what we remember about culture, how we remember it, and how technology and media shape that memory. We take a "problem-centered," case-study approach to research. The projects below contain data, scripts, and documentation from case studies created by research partners and student research assistants. Scroll down for data related to digital humanities pedagogy. 
+In ReMedia we study multimedia cultural memory: what we remember about culture, how we remember it, and how technology and media shape that memory. We take a "problem-centered," case-study approach to research. The projects below contain data, scripts, and documentation from case studies, many co-created with research partners and student research assistants. Scroll down for data related to digital humanities pedagogy. 
 
 This portfolio provides descriptions of data building, web scraping, and computational analysis projects in ReMedia and led by the PI, Dr. Emily Christina Murphy. Some projects featured here are in-progress, and others are cleaned, completed, or on-hiaitus. This public-facing repository does not include any sensitive of living subject data. In ReMedia our primary data repository is Microsoft Teams on secure UBCO servers. If you have questions about these projects or curious to see more, please get in touch with the PI at emily.murphy@ubc.ca. 
 
