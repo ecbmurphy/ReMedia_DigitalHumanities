@@ -65,7 +65,11 @@ This project was the topic of a SSHRC postdoctoral fellowship at the University 
 
 Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. Most linked data projects construct a whole network and measure the importance of individual notes in a network through measures like degree, closeness & betweenness centrality. In this project my goal was to experiment with modeling "ego-networks," or sets of relationships that are all connected through a single node -- in this case a person, modernist editor, author, activist, socialite, and muse, Nancy Cunard. 
 
-At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. You'll find that data in Letters.csv. Here is a visualization produced in Gephi that includes all of the nodes and edges represented by all letters sent and received. 
+At the Harry Ransom Centre, my archival research focused on the Cunard collection, recording all of the connections represented by her letters. My first approach was to create a relational database and a provisional tabular data model: 
+
+<img src="CunardUML.png" alt="Cunard Letters UML" width="300">
+
+After my fellowship at the HRC was complete, I translated this tabular data into a graphic database. You'll find that data in Letters.csv. Here is a visualization produced in Gephi that includes all of the nodes and edges represented by all letters sent and received. 
 
 - Persons are orange
 - Letters are beige
