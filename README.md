@@ -106,7 +106,6 @@ This project is on hiaitus. Next steps will include expanding the data model fro
 
 *LinkedModernisms (LiMo) was a major metadata, network modelling, and natural language processing project out of the University of Victoria, where Dr. Murphy was a postdoctoral fellow and pursued her "Feminism, Modernism, and the Ego-Network" project. LiMo is currently on hiaitus, and Dr. Murphy has taken over ownership of the data and code base. LiMo will become part of future projects on multimedia cultural memory.*
 
-
 **Description:** 
 
 LiMo sought to develop Linked Open Data (LOD) approaches to modelling literary history. Linked open data is a metadata standard that may be structured to “[allow] metadata to be connected and enriched…and links made between related resources” (“Europeana Linked Open Data”), and underpins linked resources in the Semantic Web. Although all researchers invovled were literary scholars, the possibilities of LOD precipitated a shift in the objects of inquiry, away from individual texts or avant-textes and toward the much larger world of modernist cultural production. One of the primary means of framing this shift is through the development of an ontology -- a flexible data classification system -- to account for cultural production in the modernist period. It drew on previous work by the Indiana Philosophy Ontology, which uses the open access _Stanford Encyclopedia of Philosophy (SEP)_ as its database and developed an expandable ontology to support navigation of a discipline-encompassing resource. The result was the Casaubon ontology: 
@@ -118,23 +117,9 @@ Casaubon guided LiMo's envisioned, four-tier information matrix. First, informat
 [See Video of Linked Modernisms relations search](https://github.com/ecbmurphy/Cunard_LiMo_Video/blob/main/LiMoSearch.mov) 
 
 
-- **Next Steps**
-In the original plans for LiMo was linking the project to major semantic web networks like Dr. Susan Brown’s Canadian Writing Research Collaboratory (CWRC).
+- **Next Steps:**
 
-For some time, the CWRC and Orlando have been pursuing many of the same methodological questions that Linked Modernisms is now engaging, with significantly overlapping material. Continuing the theme of developing partnerships to transform scholarly publishing, this collaboration will be informed by InPhO’s contributions and will aim to establish interactive forms of scholarly publishing that let researchers benefit from copyrighted material without necessarily having access to that material. That is, where copyright restricts the material produced by the Orlando Project for Cambridge University Press and by the REM for Routledge, metadata surveys and NLP approaches to the content – non-consumptive or non-expressive uses – allow researchers to analyze materials without necessarily being able to read them directly. In one respect, this may be one of the most significant benefits to distant reading, as proprietary repositories can still be used to yield scholarly insights even when they remain off-limits to researchers, or at least difficult for them to access.
-
-One area in which Linked Modernisms will collaborate most fruitfully with CWRC, Orlando, and INKE is the relatively new (to humanities) terrain of sophisticated visualizations of research results. The manifold partnership of these projects with InPhO’s advanced algorithmic tools will help develop John Saklofske’s (2013) NewRadial visualization application as a form of publishing. That is, when researchers execute queries on data that yield significant results, they will be able to publish them in scholarly form as visualizations that demonstrate graphically the arguments they are pursuing. This may in fact be the most exciting aspect of the kind of work being done by the Orlando Project, INKE, and Linked Modernisms, as it affords scholars not just new ways to understand and present their research results, but innovative ways to query their fields.
-
-Tier IV of the Linked Modernisms information matrix takes a self-aware approach to the very construction of the field of modernist studies. Supplementing the content (REM), first level of metadata (survey), and second level of metadata (NLP and algorithmically produced) of Linked Modernisms is a third level of metadata. It concerns how, by whom, and with what invisible biases the field of global modernist studies (as represented by the REM and its associated metadata) is constructed. Proceeding from the knowledge that no field of knowledge is neutrally constructed, we have constantly wondered how we can make legible the invisible or latent factors governing the production of the field of global modernist studies as the REM and Linked Modernisms will capture it. That is, if the knowledge contained in the REM’s entries and the metadata gathered about those entries comes from particular individuals – even if they are domain experts – then how can we trace the particularity of those individuals? How, that is, can we prevent the field of knowledge from posing as neutral and merely factual? How can we reconstruct the argument latent in that field of knowledge?
-
-
-
-
-
-
-
-
-
+In the original plans for LiMo, the project is to major semantic web networks like Dr. Susan Brown’s Canadian Writing Research Collaboratory (CWRC) and further developing Dr. Jon Saklofske's NewRadial visualization tool as a form of publishing. Depending on the goals of those projects and LiMo, we may still explore those possibilities. Within the ReMedia research program, LiMo offers a compelling example of metadata and code as a way of representing mediated cultural history. 
 
 ---
 
